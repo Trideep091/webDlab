@@ -8,11 +8,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav{
+
     display: flex;
     flex-wrap: wrap;
 }
+
 header a{
     margin-right: 20px;
     text-decoration: none;
