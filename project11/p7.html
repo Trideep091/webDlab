@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAILY-Newspaper</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .centre-sec{
+            margin: 0 auto;
+            width: 70%;
+        }
+        header{
+            height: 50px;
+            text-align: center;
+            border: 2px solid black;
+            padding: 5px;
+        }
+        main{
+            
+            text-align: center;
+            font-size: 2rem;
+            border: 2px solid black;
+        }
+        main img{
+            width: 100px;
+        }
+        .large-img, .article{
+            margin-top: 5px;
+        }
+        .fraction1{
+            display: grid;
+            border: 2px solid black;
+            margin-top: 5px;
+            grid-template-columns: 2fr 1fr;
+        }
+        .fraction1 img{
+            height: auto;
+            padding: 5px;
+            width: 100%;
+        }
+        
+        .fraction1 .article{
+            display: flex;
+            flex-direction: column;
+        }
+        .fraction2{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 5px 0px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .fraction3{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .news{
+            border: 2px solid black;
+            padding: 5px;
+            margin: 3px 3px;
+        }
+        .fraction5{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .large-img{
+            border: 2px solid black;
+            padding: 5px;
+        }
+        .new3{
+            border: 2px solid black;
+        }
+        .new4{
+            border: 2px solid black;
+            margin-left: 5px;
+        }
+        .fraction4{
+            border: 2px solid black;
+            margin: 3px 0px;
+        }
+    </style>
+</head>
+<body>
+    <section class="centre-sec">
+        <header>
+        <h2>The DAILY-Newspaper</h2>
+    </header>
+    <main>
+        <h1>India Women Crowned Asia Cup Champions</h1>
+        <img src="photo.jpg" alt="">
+        <p>India's women's cricket team defeated Sri Lanka by 72 runs to win the Women's Asia Cup, securing a record eighth title. The victory adds another major achievement to India's women's cricket history and gives the team strong momentum ahead of upcoming international competitions.</p>
+    </main>
+    <section class="fraction1">
+        <div class="large-img">
+            <img src="largetech.jpg" alt="">
+        </div>
+        <div class="article">
+            <div class="news">
+                <h2>AI Investment Faces New Questions</h2>
+                <p>Global technology stocks came under pressure as investors reacted to calls for a more measured approach to artificial-intelligence development. Concerns about the enormous investment required for AI infrastructure have added uncertainty to technology markets.</p>
+            </div>
+            <div class="news">
+                <h2>Indias's Tech Industry Looks Abroad</h2>
+                <p>India's Finance Minister has proposed a dedicated forum to help Indian technology companies deal with foreign regulators as they expand internationally. The proposal focuses on areas including AI, cybersecurity and emerging digital technologies.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fraction2">
+        <div class="news">
+            <h2>National Engineers' Day Approaches</h2>
+            <p>India will observe National Engineers' Day on September 15 in honour of engineer and Bharat Ratna recipient M. Visvesvaraya. The day recognizes the contribution of engineers to India's infrastructure, industry and technological development.</p>
+        </div>
+        <div class="new4">
+            <h3>India's Next Industrial Wave</h3>
+            <p>India's technology and manufacturing landscape is expanding beyond traditional IT services. Space technology, semiconductors, data centres, electronics, solar manufacturing and aerospace are emerging as important sectors for future investment and industrial growth.</p>
+        </div>
+    </section>
+
+    <section class="fraction3">
+
+        <div class="news">
+            <h2>India Begins T20 Series With Big Win</h2>
+            <p>
+                India defeated Afghanistan by seven wickets in the first T20I in New Delhi. Abhishek Sharma produced a spectacular 82 from just 32 balls as India chased Afghanistan's 157-run target in only 13.4 overs.
+            </p>
+        </div>
+
+        <div class="news">
+            <h2>A new chapter for Indian Cricket</h2>
+            <p>
+                For the first time in an Indian cricket match, both Vande Mataram and Jana Gana Mana were played before India's T20I against Afghanistan. The unusual pre-match ceremony attracted attention as India began its series in New Delhi.
+            </p>
+        </div>
+
+        <div class="news">
+            <h2>Global Markets Watch AI and Oil</h2>
+            <p>
+                Global markets are facing renewed uncertainty as concerns about AI investment combine with rising energy-market pressures. Technology stocks have been volatile while geopolitical tensions continue to affect global oil supplies.
+            </p>
+        </div>
+    </section>
+    
+    <section class="fraction4">
+        <h3>SPORTS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus voluptates doloremque numquam, consectetur eos incidunt similique animi saepe quidem, atque voluptatum magni, omnis esse blanditiis maxime ab beatae cupiditate adipisci iste nihil officiis? Dolor ad mollitia aperiam, sapiente debitis numquam? Perferendis sapiente facilis asperiores aperiam nisi eveniet consequuntur dicta itaque dolorem! Praesentium quibusdam, modi officiis neque amet vel voluptas.</p>
+    </section>
+
+    <section class="fraction5">
+        <div class="news">
+            <h2>India strom past Afganistan</h2>
+            <p>India won the opening T20I against Afghanistan by seven wickets, powered by Abhishek Sharma's explosive 82-run innings.</p>
+        </div>
+        <div class="news">
+            <h2>India's Eighth Asia Cup</h2>
+            <p>India's women's team secured another Asia Cup title after defeating Sri Lanka by 72 runs in the final.</p>
+        </div>
+        <div class="news">
+            <h2>US Open Champions Crowned</h2>
+            <p>The 2026 US Open concluded with Alexander Zverev and Elena Rybakina taking the men's and women's singles titles respectively.</p>
+        </div>
+    </section>
+    </section>
+</body>
+</html>
