@@ -34,10 +34,10 @@ Portfolio projects grid with advanced CSS Grid
 Choosing between Flexbox and Grid for a shared layout
 
 ## Technologies Used 
->HTML
->CSS
->CSS Grid
->CSS flexbox
+>HTML <br>
+>CSS <br>
+>CSS Grid <br>
+>CSS flexbox <br>
 >Media Queries
 
 
